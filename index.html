@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css?version=1.1">
+    <title>ليان لِتِجَارَة الْأَلْبِسَة</title>
+</head>
+
+<body>
+
+    <section class="MainContainer">
+        <div class="welcome-page animate-bottom">
+            <img src="./assets/0004-.png" alt="">
+        </div>
+    </section>
+    <section class="ProfileContainer">
+        <div class="header-row">
+            <div class="profile-img-holder">
+                <img src="./assets/0001.png" alt="">
+            </div>
+        </div>
+
+        <div class="body-row">
+            <div class="profile-intro-holder">
+                <h1>ليان لِتِجَارَة الْأَلْبِسَة</h1>
+            </div>
+            <ul>
+                <li>
+                    <a href="https://www.facebook.com/Lianfashion20/">
+                        <div class="social-meida-img"><img src="./assets/facebook.png" alt=""></div>
+                        <h4>فيسبوك</h4>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/lian_fashion_company/?utm_medium=copy_link">
+                        <div class="social-meida-img"><img src="./assets/insta.png" alt=""></div>
+                        <h4>إنستغرام</h4>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://t.me/Lianshpiq20">
+                        <div class="social-meida-img"><img src="./assets/Telegram.png" alt=""></div>
+                        <h4>تيليجرام</h4>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://wa.me/message/YAJ4WHS6NW7OM1">
+                        <div class="social-meida-img"><img src="./assets/wp.png" alt=""></div>
+                        <h4>واتساب</h4>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+    </section>
+
+
+    <script>
+        const myTimeout = setTimeout(myGreeting, 2000);
+
+        function myGreeting() {
+            var element1 = document.getElementsByClassName('ProfileContainer')[0];
+            element1.classList.add("block");
+            var element2 = document.getElementsByClassName('MainContainer')[0];
+            element2.classList.add("none");
+        }
+    </script>
+
+</body>
+
+</html>
